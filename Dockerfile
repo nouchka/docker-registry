@@ -1,4 +1,4 @@
-FROM registry:2.4.1
+FROM registry:2
 MAINTAINER Jean-Avit Promis "docker@katagena.com"
 
 COPY start.sh /start.sh
