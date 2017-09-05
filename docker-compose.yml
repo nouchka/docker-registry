@@ -3,8 +3,7 @@ version: '2'
 services:
   registry:
     restart: always
-    ##image: nouchka/registry
-    build: .
+    image: nouchka/registry
     container_name: "registry"
     ports:
       - "5000:5000"
